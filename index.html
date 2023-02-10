@@ -2,30 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code Editor</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
    <div class="main">
     <div class="edit">
-        <h2> HTML</h2>
-       <textarea id="html" placeholder="HTML"></textarea>
+        <h2>HTML</h2>
+        <label for="html">HTML</label>
+        <textarea id="html" placeholder="HTML"></textarea>
     </div>
     <div class="edit">
         <h2>CSS</h2>
+        <label for="css">CSS</label>
         <textarea id="css" placeholder="CSS"></textarea>
     </div>
     <div class="edit">
         <h2>JavaScript</h2>
+        <label for="js">JavaScript</label>
         <textarea id="js" placeholder="JavaScript"></textarea>
     </div>
+    <button id="run-button">Run</button>
    </div>
    <div class="output">
-    <h1>output</h1>
-     <iframe id="code"></iframe>
+    <h1>Output</h1>
+    <iframe id="code"></iframe>
    </div>
-   <script type="text/JavaScript" src="script.js"></script>
+   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
